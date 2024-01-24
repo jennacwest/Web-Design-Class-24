@@ -1,1 +1,0 @@
-# Web-Design-Class-24 Project Page
