@@ -1,0 +1,64 @@
+body {
+    background-color: #730202;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #400202;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #400202;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #BF0404;
+    text-decoration: none;
+}
+
+main img {
+    display: block;
+    width: 85%;
+    margin: 20px auto;
+}
+
+a {
+    color: #400202;
+
+}
+
+a:hover {
+    color: #BF0404;
+    text-decoration: none;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #BF0404;
+}
+
+h3 {
+    color: #400202;
+}
