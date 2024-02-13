@@ -1,0 +1,162 @@
+/* Global STyles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: #A9DEFA;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: #F2AC29;
+}
+
+a:hover {
+    color: #FFDF07;
+    text-decoration: none;
+}
+
+#jun {
+    display: center;
+}
+
+.juncover img {
+    width: 20%;
+}
+
+/* moblie styles */
+
+nav {
+    background-color: #EBB3F2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #F2AC29;
+    background-color: #A9DEFA;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #A9DEFA;
+}
+
+header h1 {
+    font-size: 35px;
+    color: #EBB3F2;
+}
+
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solid black;
+    padding: 10px;  
+}
+
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    background-color:#A9DEFA;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+/* Tablet */
+
+@media(min-width: 786px) {
+    
+    nav {
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 200px;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    #lower {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+}
+
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+}
