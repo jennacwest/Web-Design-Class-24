@@ -35,6 +35,20 @@ a:hover {
     width: 20%;
 }
 
+#char {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.charcover {
+    margin: 10px;
+}
+
+.charcover img {
+    width: 100%;
+}
+
 /* moblie styles */
 
 nav {
